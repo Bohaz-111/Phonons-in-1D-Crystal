@@ -1,6 +1,8 @@
 # Simulation of vibrations in a 1D crystal
 
-Classical and semiclassical MD code for a 1D optical-phonon chain that computes the vibrational density of states (VDOS) from velocity autocorrelation functions (VACFs). Dynamics are run in the NVT ensemble using the Bussi–Donadio–Parrinello (CSVR) thermostat. The effective potential for centroid molecular dynamics (CMD) is calculated using the method in Feynman and Kleinert's paper on effective classical partition function.
+These codes reproduces some results in Daria Kondratyeva's Part II thesis: A Study of Anharmonic Phonons and Thermal Conductivity, 2025
+
+Classical molecular dynamics and centroid molecular dynamics code for a 1D optical-phonon chain that computes the vibrational density of states (VDOS) from velocity autocorrelation functions (VACFs). Dynamics are run in the NVT ensemble using the Bussi–Donadio–Parrinello (CSVR) thermostat. The effective potential for centroid molecular dynamics (CMD) is calculated using the method in Feynman and Kleinert's paper on effective classical partition function.
 
 ## Features
 - 1D chain with periodic boundary conditions; velocity-Verlet integrator.
